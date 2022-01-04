@@ -1,18 +1,22 @@
-
+body{
+    margin: 0px;
+}
 h1{
     font-family: 'Lato', sans-serif;
     font-size: 50px;
-
 }
-
+h3{
+    font-family: 'Lato', sans-serif;
+}
 .yellow{
     color: orange;
 }
 
 
-section{
+section {
    display: flex;
    font-family: 'Lato', sans-serif;
+   margin-bottom: 150px;
 }
 .half-width{
     width: 50%;
@@ -31,5 +35,16 @@ section{
 
     padding: 10px 14px;
     border-radius: 7px;
+
+}
+.top-banner{
+    background-image: url(./image/top-banner.png);
+    background-repeat: no-repeat ;
+
+}
+.dream-big{
+    background-image: url(./image/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right ;
 
 }
